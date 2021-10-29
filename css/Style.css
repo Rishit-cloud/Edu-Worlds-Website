@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .navbar{ 
@@ -129,7 +130,7 @@ body{
 
 .Home-Text a:hover{
     background-color: white;
-    color: black;
+    color: rgb(63, 92, 255);
 }
 
 .space{
@@ -147,6 +148,41 @@ body{
 
 .Services-section{
     width: 100%;
+}
+
+.first-half{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.firsthalf-p{
+    width: 50%;
+}
+
+.firsthalf-p p{
+    font-size: 1.1rem;
+}
+
+.first-half h2{
+    font-size: 1.3rem;
+}
+
+.firsthalf-img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firsthalf-img img{
+    width: 80%;
+    height: 80%;
 }
 
 /* Media Coding */
@@ -210,4 +246,27 @@ body{
     .Home-Img{
         display: none;
     }
+
+    /* Services */
+    .first-half{
+        flex-direction: column;
+    }
+
+    .firsthalf-p{
+        width: 90%;
+        text-align: center;
+    }
+
+    .firsthalf-p p{
+        font-size: .9rem;
+    }
+
+    .firsthalf-p h2{
+        font-size: 1.1rem;
+    }
+
+    .firsthalf-img{
+        width: 70%;
+    }
+
 }
