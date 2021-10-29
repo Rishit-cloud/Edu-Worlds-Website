@@ -143,6 +143,12 @@ body{
     width: 100%;
 }
 
+/* Services */
+
+.Services-section{
+    width: 100%;
+}
+
 /* Media Coding */
 @media (max-width: 550px){
     .toggle-button{
